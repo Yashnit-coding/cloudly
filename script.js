@@ -1,6 +1,6 @@
 
 /* =========================================
-   CLOUDLY — INTERACTIVE JAVASCRIPT
+   Cloudyyyy — INTERACTIVE JAVASCRIPT
    Theme, portfolio filters, navigation,
    animations, and contact form
    ========================================= */
@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     try {
-      localStorage.setItem("cloudly-theme", theme);
+      localStorage.setItem("Cloudyyyy-theme", theme);
     } catch (error) {
       // The theme still works if storage is unavailable.
     }
@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let savedTheme = "light";
 
   try {
-    savedTheme = localStorage.getItem("cloudly-theme") || "light";
+    savedTheme = localStorage.getItem("Cloudyyyy-theme") || "light";
   } catch (error) {
     // Use the default theme.
   }
@@ -286,7 +286,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         console.warn(
-          "Cloudly contact form: EmailJS credentials are missing."
+          "Cloudyyyy contact form: EmailJS credentials are missing."
         );
         return;
       }
@@ -349,7 +349,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       } catch (error) {
         console.error(
-          "Cloudly contact form submission failed:",
+          "Cloudyyyy contact form submission failed:",
           error
         );
 
@@ -417,5 +417,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
   filterPortfolio("all");
 
-  console.log("Cloudly website is ready!");
+  console.log("Cloudyyyy website is ready!");
 });
